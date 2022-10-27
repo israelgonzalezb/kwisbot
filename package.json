@@ -1,10 +1,9 @@
 {
   "name": "statsbot",
   "version": "1.0.0",
-  "description": "> **Note** <br>\r > This project does participate in the **Hacktoberfest 2022** event!",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Error: No test specified'",
     "format": "echo 'Formatting js files ...' && prettier --loglevel silent --write *.js commands/*.js",
     "dev": "npm run format && nodemon index.js -e js,json",
     "production": "node index.js"
