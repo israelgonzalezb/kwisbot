@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "echo 'Formatting js files ...' && prettier --loglevel silent --write *.js commands/*.js",
+    "format": "echo 'Skipping formatting js files ...'",
     "dev": "npm run format && nodemon index.js -e js,json",
     "production": "node index.js"
   },
